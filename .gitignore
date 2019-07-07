@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+.vscode/
+.ionide/
+.fake/
+packages/
+paket-files/
+
+*.fsx.lock

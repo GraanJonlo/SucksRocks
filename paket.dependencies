@@ -1,0 +1,12 @@
+version 5.215.0
+
+source https://api.nuget.org/v3/index.json
+nuget Suave ~> 2.5.5
+
+// [ FAKE GROUP ]
+group Build
+    storage none
+    source https://api.nuget.org/v3/index.json
+    nuget Fake.DotNet.Cli
+    nuget Fake.IO.FileSystem
+    nuget Fake.Core.Target
