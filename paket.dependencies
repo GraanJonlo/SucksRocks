@@ -1,6 +1,7 @@
 version 5.215.0
 
 source https://api.nuget.org/v3/index.json
+nuget FsUnit.xUnit ~> 3.4.0
 nuget Suave ~> 2.5.5
 
 // [ FAKE GROUP ]
