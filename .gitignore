@@ -6,5 +6,6 @@ obj/
 .fake/
 packages/
 paket-files/
+.paket/load/
 
 *.fsx.lock

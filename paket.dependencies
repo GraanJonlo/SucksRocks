@@ -1,12 +1,18 @@
 version 5.215.0
 
+framework: auto-detect
+storage: none
+generate_load_scripts: true
+
 source https://api.nuget.org/v3/index.json
 nuget FsUnit.xUnit ~> 3.4.0
 nuget Suave ~> 2.5.5
 
 // [ FAKE GROUP ]
 group Build
-    storage none
+    framework: auto-detect
+    storage: none
+
     source https://api.nuget.org/v3/index.json
     nuget Fake.DotNet.Cli
     nuget Fake.IO.FileSystem
