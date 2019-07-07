@@ -13,13 +13,18 @@ group Build
     storage: none
 
     source https://api.nuget.org/v3/index.json
+    nuget Fake.Core.Target
     nuget Fake.DotNet.Cli
     nuget Fake.IO.FileSystem
-    nuget Fake.Core.Target
 
 group Test
     framework: auto-detect
     storage: none
 
     source https://api.nuget.org/v3/index.json
+    nuget FsUnit ~> 3.4.0
     nuget FsUnit.xUnit ~> 3.4.0
+    nuget Microsoft.NET.Test.Sdk ~> 16.2.0
+    nuget xunit ~> 2.4.1
+    nuget xunit.runner.console ~> 2.4.1
+    nuget xunit.runner.visualstudio ~> 2.4.1

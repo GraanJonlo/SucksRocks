@@ -4,8 +4,8 @@ obj/
 .vscode/
 .ionide/
 .fake/
-packages/
 paket-files/
 .paket/load/
 
 *.fsx.lock
+*.ncrunchsolution
