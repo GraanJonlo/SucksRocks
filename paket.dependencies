@@ -2,17 +2,13 @@ version 5.215.0
 
 framework: auto-detect
 storage: none
-generate_load_scripts: true
-
 source https://api.nuget.org/v3/index.json
-
 nuget Suave ~> 2.5.5
 
 // [ FAKE GROUP ]
 group Build
     framework: auto-detect
     storage: none
-
     source https://api.nuget.org/v3/index.json
     nuget Fake.Core.Target
     nuget Fake.DotNet.Cli
@@ -21,7 +17,6 @@ group Build
 group Test
     framework: auto-detect
     storage: none
-
     source https://api.nuget.org/v3/index.json
     nuget canopy ~> 2.1.0
     nuget FsUnit ~> 3.4.0
