@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4EBBBCDA
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SucksRocks.Test", "tests\SucksRocks.Test\SucksRocks.Test.fsproj", "{30F141B7-F067-40D2-A31B-78938D7C653E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SucksRocks.Acceptance", "tests\SucksRocks.Acceptance\SucksRocks.Acceptance.csproj", "{8A2B7123-F27E-464A-AC50-72AF1AF882B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,9 +50,22 @@ Global
 		{30F141B7-F067-40D2-A31B-78938D7C653E}.Release|x64.Build.0 = Release|Any CPU
 		{30F141B7-F067-40D2-A31B-78938D7C653E}.Release|x86.ActiveCfg = Release|Any CPU
 		{30F141B7-F067-40D2-A31B-78938D7C653E}.Release|x86.Build.0 = Release|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Release|x64.Build.0 = Release|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F6673381-1AFD-4434-95E4-2F74929AE3A7} = {D6B61BC6-65F0-4F6B-9728-66489EACB91A}
 		{30F141B7-F067-40D2-A31B-78938D7C653E} = {4EBBBCDA-7672-4C15-858F-1E02046F32C5}
+		{8A2B7123-F27E-464A-AC50-72AF1AF882B3} = {4EBBBCDA-7672-4C15-858F-1E02046F32C5}
 	EndGlobalSection
 EndGlobal

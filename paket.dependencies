@@ -5,6 +5,7 @@ storage: none
 generate_load_scripts: true
 
 source https://api.nuget.org/v3/index.json
+
 nuget Suave ~> 2.5.5
 
 // [ FAKE GROUP ]
@@ -22,9 +23,11 @@ group Test
     storage: none
 
     source https://api.nuget.org/v3/index.json
+    nuget canopy ~> 2.1.0
     nuget FsUnit ~> 3.4.0
     nuget FsUnit.xUnit ~> 3.4.0
     nuget Microsoft.NET.Test.Sdk ~> 16.2.0
+    nuget Selenium.WebDriver.ChromeDriver ~> 75.0.3770.90
     nuget xunit ~> 2.4.1
     nuget xunit.runner.console ~> 2.4.1
     nuget xunit.runner.visualstudio ~> 2.4.1
