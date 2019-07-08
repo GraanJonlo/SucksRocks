@@ -1,19 +1,26 @@
-﻿module SucksRocks
+namespace SucksRocks
 
-open System
-open System.Threading
-open Suave
+module RockScore =
+    let forTerm t =
+        match t with
+        | "Apple" -> 1
+        | _ -> 0
 
-[<EntryPoint>]
-let main argv =
-    let cts = new CancellationTokenSource()
-    let conf = { defaultConfig with cancellationToken = cts.Token }
-    let listening, server = startWebServerAsync conf (Successful.OK "Hello World")
+module SuaveServer =
+    open System
+    open System.Threading
+    open Suave
 
-    Async.Start(server, cts.Token)
-    printfn "Make requests now"
-    Console.ReadKey true |> ignore
+    [<EntryPoint>]
+    let main argv =
+        let cts = new CancellationTokenSource()
+        let conf = { defaultConfig with cancellationToken = cts.Token }
+        let listening, server = startWebServerAsync conf (Successful.OK "Hello World")
 
-    cts.Cancel()
+        Async.Start(server, cts.Token)
+        printfn "Make requests now"
+        Console.ReadKey true |> ignore
 
-    0 // return an integer exit code
+        cts.Cancel()
+
+        0 // return an integer exit code
