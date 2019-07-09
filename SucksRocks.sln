@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4EBBBCDA
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SucksRocks.Test", "tests\SucksRocks.Test\SucksRocks.Test.fsproj", "{30F141B7-F067-40D2-A31B-78938D7C653E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SucksRocks.Acceptance", "tests\SucksRocks.Acceptance\SucksRocks.Acceptance.csproj", "{8A2B7123-F27E-464A-AC50-72AF1AF882B3}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SucksRocks.Acceptance", "tests\SucksRocks.Acceptance\SucksRocks.Acceptance.fsproj", "{8A2B7123-F27E-464A-AC50-72AF1AF882B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
