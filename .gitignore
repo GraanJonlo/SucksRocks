@@ -3,9 +3,11 @@ obj/
 .vs/
 .vscode/
 .ionide/
+.idea/
 .fake/
 paket-files/
 .paket/load/
+_NCrunch_*/
 
 *.fsx.lock
-*.ncrunchsolution
+*.ncrunch*
