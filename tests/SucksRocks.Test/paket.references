@@ -1,7 +1,0 @@
-group Test
-    FsUnit
-    FsUnit.xUnit
-    Microsoft.NET.Test.Sdk
-    xunit
-    xunit.runner.console
-    xunit.runner.visualstudio
